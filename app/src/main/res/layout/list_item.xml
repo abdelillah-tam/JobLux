@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Senior Android Developer"
+        android:textColor="@color/green"
+        android:fontFamily="@font/bebasneue_regular"
+        android:textSize="24sp"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/job_description"
+        app:layout_constraintTop_toBottomOf="@+id/job_title"
+        android:ellipsize="end"
+        android:maxLines="4"
+        tools:text="This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description, This is a long description." />
+</androidx.constraintlayout.widget.ConstraintLayout>

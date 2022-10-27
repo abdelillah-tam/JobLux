@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JobLux</string>
+    <string name="search_for_a_job">Search for a job ...</string>
+    
+    <string-array name="countries">
+        <item>gb</item>
+        <item>at</item>
+        <item>au</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>in</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>nz</item>
+        <item>pl</item>
+        <item>ru</item>
+        <item>sg</item>
+        <item>us</item>
+        <item>za</item>
+    </string-array>
+</resources>
